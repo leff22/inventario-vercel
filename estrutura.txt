@@ -1,0 +1,11 @@
+inventario-vercel/
+├── api/
+│   └── index.py           ← app Flask aqui
+├── templates/
+│   ├── upload.html
+│   ├── inventario.html
+│   └── relatorio.html
+├── exemplo.xlsx
+├── requirements.txt
+├── vercel.json
+├── README.md (opcional)
