@@ -48,4 +48,4 @@ def relatorio():
     return render_template('relatorio.html', relatorio=relatorio)
 
 # Vercel expects this object
-handler = application
+handler = app
