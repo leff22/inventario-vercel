@@ -3,7 +3,7 @@ from flask_cors import CORS
 import pandas as pd
 import os
 
-app = Flask(__name__, template_folder="../templates")
+app = Flask(__name__)
 CORS(app)
 app.secret_key = os.getenv('FLASK_SECRET', 'inventario123')
 
